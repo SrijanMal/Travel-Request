@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>User_Approval</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    var requester = current.variables.requested_by.getDisplayValue();
+    var company = current.variables.company.getDisplayValue();
+    var total_allowance = current.variables.total_allowance.getDisplayValue();
+
+    template.print("<br>" + "Requested by    " + " " + requester);
+    template.print("<br>" + "Company              " + " " + company);
+    template.print("<br>" + "Total Allowance     " + " " + total_allowance);
+
+    var record = new GlideRecord('sc_req_item');
+    var sysCurrentRecordSysId = current.sys_id;
+    record.addQuery('sys_id', sysCurrentRecordSysId);
+    record.query();
+    while (record.next()) {
+
+        var obj = JSON.parse(record.variables.flight_details);
+
+        if (obj.length > 0) {
+            // Start the table
+            template.print('<br/><table border="1" style="border-collapse: collapse; width: 100%;">');
+            template.print('<tr><th>Airline</th><th>Flight Number</th><th>Flight Date</th><th>From Location</th><th>To Location</th><th>Allowance</th></tr>');
+
+            for (var i = 0; i < obj.length; i++) {
+                // Fetch the 'from location' name
+                var fromLocationName = getLocationName(obj[i].from_location);
+
+                // Fetch the 'to location' name
+                var toLocationName = getLocationName(obj[i].to_location);
+                template.print('<tr>');
+                template.print('<td>' + obj[i].airline + '</td>');
+                template.print('<td>' + obj[i].flight_number + '</td>');
+                template.print('<td>' + obj[i].flight_date + '</td>');
+                template.print('<td>' + fromLocationName + '</td>');
+                template.print('<td>' + toLocationName + '</td>');
+                template.print('<td>' + obj[i].allowance + '</td>');
+                template.print('</tr>');
+            }
+
+            // End the table
+            template.print('</table>');
+        }
+    }
+
+    function getLocationName(locationSysId) {
+        var locationName = '';
+        if (locationSysId) {
+            var location = new GlideRecord('core_country'); // Adjust to your actual table name
+            if (location.get(locationSysId)) {
+                locationName = location.getDisplayValue();
+            }
+        }
+        return locationName;
+    }
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 12:56:09</sys_created_on>
+        <sys_id>236fb36b47f2021005303b12d16d43e5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>User_Approval</sys_name>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_update_name>sys_script_email_236fb36b47f2021005303b12d16d43e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 07:33:13</sys_updated_on>
+    </sys_script_email>
+</record_update>

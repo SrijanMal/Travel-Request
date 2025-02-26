@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Tasks - Requested Items">9ccfcfe1531201107f03ddeeff7b1209</ais_search_source>
+        <label>Requested Item</label>
+        <name>Tasks - Requested Items</name>
+        <order>100</order>
+        <search_context_config display_value="E-TravelWorkspace AI Search Configuration">ed51fbe714b2021032d86ac75d7d2710</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 11:53:37</sys_created_on>
+        <sys_id>4b513fe747b2021005303b12d16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tasks - Requested Items</sys_name>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_update_name>sys_search_filter_4b513fe747b2021005303b12d16d43db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 11:53:37</sys_updated_on>
+    </sys_search_filter>
+</record_update>

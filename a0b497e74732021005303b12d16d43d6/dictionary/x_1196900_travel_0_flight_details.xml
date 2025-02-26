@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cbf0f3e747b2021005303b12d16d430f" label="Flight Details" max_length="40" name="x_1196900_travel_0_flight_details" type="collection">
+        <element label="Airline" max_length="40" name="airline" type="string"/>
+        <element label="Allowance" max_length="40" name="allowance" type="string"/>
+        <element attributes="encode_utf8=false" label="Currency" max_length="32" name="currency" reference="fx_currency" type="reference"/>
+        <element label="Flight Date" max_length="40" name="flight_date" type="glide_date"/>
+        <element label="Flight Number" max_length="40" name="flight_number" type="string"/>
+        <element label="From Location" max_length="32" name="from_location" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="To Location" max_length="32" name="to_location" reference="core_country" type="reference"/>
+        <element label="Travel request ID" max_length="32" name="travel_request_id" reference="x_1196900_travel_0_travel_request" type="reference"/>
+        <index name="index">
+            <element name="currency"/>
+        </index>
+        <index name="index2">
+            <element name="from_location"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index4">
+            <element name="to_location"/>
+        </index>
+        <index name="index5">
+            <element name="travel_request_id"/>
+        </index>
+    </element>
+</database>

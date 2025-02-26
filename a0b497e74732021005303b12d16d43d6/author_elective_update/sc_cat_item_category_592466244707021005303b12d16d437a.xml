@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Travel Request">00037b6b47b2021005303b12d16d43f4</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 08:50:11</sys_created_on>
+        <sys_id>592466244707021005303b12d16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Travel Request</sys_name>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_update_name>sc_cat_item_category_592466244707021005303b12d16d437a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 08:50:11</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel Request">a0b497e74732021005303b12d16d43d6</application>
+        <file_path/>
+        <instance_id>5e70a512db32fdd039639027c59619d7</instance_id>
+        <instance_name>dev230661</instance_name>
+        <name>sc_cat_item_category_592466244707021005303b12d16d437a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Travel Request">00037b6b47b2021005303b12d16d43f4</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-24 08:50:11</sys_created_on><sys_id>592466244707021005303b12d16d437a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Travel Request</sys_name><sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package><sys_policy/><sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope><sys_update_name>sc_cat_item_category_592466244707021005303b12d16d437a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-24 08:50:11</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1562412537</payload_hash>
+        <record_name>Services.Travel Request</record_name>
+        <reverted_from/>
+        <source>dc50dcbf4736021005303b12d16d438e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 08:50:11</sys_created_on>
+        <sys_id>21242aa44707021005303b12d16d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19049703f6f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 08:50:11</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>55242aa4bb0702105b9131087cd0fc21</update_guid>
+        <update_guid_history>55242aa4bb0702105b9131087cd0fc21:1562412537</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ccc8626c4707021005303b12d16d4323</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 09:10:17</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>2864aeb69c254ea48eeed051e7eaf681</sys_id>
+        <sys_metadata>592466244707021005303b12d16d437a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Travel Request</sys_name>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_scope_delete display_value="">55b6ef6726e644008e1650971450a400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_592466244707021005303b12d16d437a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_592466244707021005303b12d16d437a">21242aa44707021005303b12d16d4322</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 09:10:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

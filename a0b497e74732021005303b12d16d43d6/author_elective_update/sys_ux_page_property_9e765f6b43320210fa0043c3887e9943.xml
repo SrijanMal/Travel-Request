@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Location to display the ribbon</description>
+        <name>ribbonLocation</name>
+        <page display_value="">9e765f6b9b320210dfe671cba3e4af55</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 09:56:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>9e765f6b43320210fa0043c3887e9943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonLocation</sys_name>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_update_name>sys_ux_page_property_9e765f6b43320210fa0043c3887e9943</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 09:56:10</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1196900_travel_0.9e765f6b9b320210dfe671cba3e4af55.root.ribbonLocation</unique_name>
+        <value>sidebar</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel Request">a0b497e74732021005303b12d16d43d6</application>
+        <file_path/>
+        <instance_id>5e70a512db32fdd039639027c59619d7</instance_id>
+        <instance_name>dev230661</instance_name>
+        <name>sys_ux_page_property_9e765f6b43320210fa0043c3887e9943</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Location to display the ribbon</description><name>ribbonLocation</name><page display_value="">9e765f6b9b320210dfe671cba3e4af55</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-21 09:56:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>9e765f6b43320210fa0043c3887e9943</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ribbonLocation</sys_name><sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package><sys_policy/><sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope><sys_update_name>sys_ux_page_property_9e765f6b43320210fa0043c3887e9943</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-21 09:56:10</sys_updated_on><type>string</type><unique_name>x_1196900_travel_0.9e765f6b9b320210dfe671cba3e4af55.root.ribbonLocation</unique_name><value>sidebar</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>552418403</payload_hash>
+        <record_name>ribbonLocation</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 11:50:34</sys_created_on>
+        <sys_id>22a03fa747b2021005303b12d16d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1903aa250ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 11:50:34</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>eea03fa7eeb2021052494b8090193f7d</update_guid>
+        <update_guid_history>eea03fa7eeb2021052494b8090193f7d:552418403</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 11:50:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>a2b76645efa5453a9e0c9c8dfef00ab9</sys_id>
+        <sys_metadata>9e765f6b43320210fa0043c3887e9943</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonLocation</sys_name>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_scope_delete display_value="">55b6ef6726e644008e1650971450a400</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_9e765f6b43320210fa0043c3887e9943</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_9e765f6b43320210fa0043c3887e9943">22a03fa747b2021005303b12d16d437e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 11:50:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

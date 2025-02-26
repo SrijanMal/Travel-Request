@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Audience for app travel-request">a3769f6b4732021005303b12d16d435f</applicability>
+        <list/>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 09:56:14</sys_created_on>
+        <sys_id>37769f6b4732021005303b12d16d43b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_37769f6b4732021005303b12d16d43b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 09:56:14</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel Request">a0b497e74732021005303b12d16d43d6</application>
+        <file_path/>
+        <instance_id>5e70a512db32fdd039639027c59619d7</instance_id>
+        <instance_name>dev230661</instance_name>
+        <name>sys_ux_applicability_m2m_list_37769f6b4732021005303b12d16d43b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Audience for app travel-request">a3769f6b4732021005303b12d16d435f</applicability><list/><order>100</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-21 09:56:14</sys_created_on><sys_id>37769f6b4732021005303b12d16d43b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package><sys_policy/><sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_37769f6b4732021005303b12d16d43b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-21 09:56:14</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>-266146209</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e0b497e74732021005303b12d16d43da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 11:50:33</sys_created_on>
+        <sys_id>5aa07ba747b2021005303b12d16d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1903aa24bd50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 11:50:33</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>ff769f6bfd3202107a954299b21bdfb3</update_guid>
+        <update_guid_history>ff769f6bfd3202107a954299b21bdfb3:-532520542,ff769f6bfd3202107a954299b21bdfb3:-532520542</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 11:50:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>464b0d87630b4de983afeca896d98e39</sys_id>
+        <sys_metadata>37769f6b4732021005303b12d16d43b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_scope_delete display_value="">55b6ef6726e644008e1650971450a400</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_37769f6b4732021005303b12d16d43b2</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_37769f6b4732021005303b12d16d43b2">5aa07ba747b2021005303b12d16d437c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 11:50:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1196900_travel_0.CurrencyConverterAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CurrencyConverterAjax</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var CurrencyConverterAjax = Class.create();
+CurrencyConverterAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+   
+    convertCurrency: function() {
+        var amount = parseFloat(this.getParameter('sysparm_amount'));
+        var fromCurrency = this.getParameter('sysparm_from_currency');
+        var toCurrency = this.getParameter('sysparm_to_currency');
+ 
+        // var converter = new sn_currency.GlideCurrencyConverter();
+        // var convertedAmount = converter.convert(amount, fromCurrency, toCurrency);
+ 
+        var converter = new sn_currency.GlideCurrencyConverter();
+    converter.setAmount(amount);
+    converter.setFromCurrency(fromCurrency);
+    converter.setToCurrency(toCurrency);
+   var convertedAmount = converter.convert();
+   var finalamount = convertedAmount.getAmount();
+ 
+        return finalamount.toString();
+    }
+ 
+    //type: 'CurrencyConverterAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-27 06:08:20</sys_created_on>
+        <sys_id>c08bd9a5478f021036c69e20116d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CurrencyConverterAjax</sys_name>
+        <sys_package display_value="Travel Request" source="x_1196900_travel_0">a0b497e74732021005303b12d16d43d6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Travel Request">a0b497e74732021005303b12d16d43d6</sys_scope>
+        <sys_update_name>sys_script_include_c08bd9a5478f021036c69e20116d431b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-27 06:08:20</sys_updated_on>
+    </sys_script_include>
+</record_update>
